@@ -5,4 +5,4 @@ export {default as DailyItemsComponent}  from "./DailyItemsComponent";
 export {default as DailyContainerComponent}  from "./DailyContainerComponent"; 
 export {default as BottomFixedComponent}  from "./BottomFixedComponent"; 
 export {default as PointComponent}  from "./PointComponent"; 
-export {default as MainClicableComponent}  from "./MainClicableComponent"; 
+export {default as MainClickableComponent}  from "./MainClickableComponent"; 

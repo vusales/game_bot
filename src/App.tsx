@@ -15,7 +15,7 @@ import {
   DailyContainerComponent, 
   BottomFixedComponent, 
   PointComponent , 
-  MainClicableComponent , 
+  MainClickableComponent , 
 } from './components';
 
 const levelNames = [
@@ -134,7 +134,7 @@ const App: React.FC = () => {
               imageSource={dollarCoin} 
               point={points.toLocaleString()}
             />
-            <MainClicableComponent
+            <MainClickableComponent
              callBack={handleCardClick}
              imageSource ={mainCharacter}
             />
@@ -161,7 +161,7 @@ const App: React.FC = () => {
           {pointsToAdd}
         </div>
       ))}
-      
+
     </div>
   );
 };
