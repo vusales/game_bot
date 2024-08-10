@@ -1,16 +1,14 @@
+require('dotenv').config();
 const TelegramBot = require('node-telegram-bot-api');
 const express = require('express');
 
-const TOKEN = "7083202109:AAHJFwWlBXtcieBsHIr18JVceXQF-cK9Q2U";
-const gameName = "testRobot" ;
-
+const TOKEN = process.env.TELEGRAM_BOT_TOKEN;
+const gameName = process.env.TELEGRAM_GAME_NAME;
 // url that i created with ngrok for testing bot
-let url = "https://fdce-37-61-126-27.ngrok-free.app" ;
-
-// gameLink that botfather sent "t.me/testGamebbBot?game=testRobot"
-let gameLink = "t.me/testGamebbBot?game=testRobot" ;
-
-const port = 8080 ;
+let url = process.env.PUBLIC_NGROK_URL ;
+// gameLink that botfather sent "t.me/testGamebbBot?game=lucideAlien"
+let gameLink = process.env.TELEGRAM_GAME_LINK || "t.me/testGamebbBot?game=lucideAlien" ;
+const port = process.env.PORT || 8000 ;
 
 const bot = new TelegramBot(TOKEN, { polling: true });
 const app = express();
