@@ -5,7 +5,7 @@ const TOKEN = "7083202109:AAHJFwWlBXtcieBsHIr18JVceXQF-cK9Q2U";
 const gameName = "testRobot" ;
 
 // url that i created with ngrok for testing bot
-let url = "https://9f00-37-61-126-27.ngrok-free.app" ;
+let url = "https://fdce-37-61-126-27.ngrok-free.app" ;
 
 // gameLink that botfather sent "t.me/testGamebbBot?game=testRobot"
 let gameLink = "t.me/testGamebbBot?game=testRobot" ;
