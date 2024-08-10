@@ -42,7 +42,7 @@ A floating animation is displayed at the click location, showing the points adde
 1. Clone the repository
 2. Install dependencies with `npm install`
 3. Start the React app with `npm run dev`
-4. Create a Telegram bot using BotFather and add your bot token to a `.env` file or you can modify ./bot/bot.js file directly:
+4. Create a Telegram bot and telegram game using BotFather (this link will help you if you are confused <a href="https://dev.to/xlzior/telegram-games-an-intermediate-guide-45io#:~:text=Creating%20a%20Game%201%20Create%20a%20Telegram%20Bot,%2Fsetinline%203%20Create%20a%20new%20game%20using%20%2Fnewgame">Telegram game bot creating</a>) and add your bot token to a `.env` file or you can modify ./bot/bot.js file directly:
 
    ```
    BOT_TOKEN=your_bot_token_here
