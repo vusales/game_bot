@@ -1,4 +1,5 @@
-# Hamster-Kombat-Clone Telegram Game Bot
+# Lucidia Alien Telegram Game Bot
+### clone Hamster-Kombat-Clone
 This project is a Telegram Game Bot and forked from <a href="https://github.com/nikandr-surkov/Hamster-Kombat-Telegram-Mini-App-Clone">github.com/nikandr-surkov/Hamster-Kombat-Telegram-Mini-App-Clone</a>
 
 
