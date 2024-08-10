@@ -42,14 +42,13 @@ A floating animation is displayed at the click location, showing the points adde
 1. Clone the repository
 2. Install dependencies with `npm install`
 3. Start the React app with `npm run dev`
-4. Create a Telegram bot and telegram game using BotFather (this link will help you if you are confused <a href="https://dev.to/xlzior/telegram-games-an-intermediate-guide-45io#:~:text=Creating%20a%20Game%201%20Create%20a%20Telegram%20Bot,%2Fsetinline%203%20Create%20a%20new%20game%20using%20%2Fnewgame">Telegram game bot creating</a>) and add your bot token to a `.env` file or you can modify ./bot/bot.js file directly:
-
+4. Create a Telegram bot and game using BotFather. If you need guidance, refer to this <a href="https://dev.to/xlzior/telegram-games-an-intermediate-guide-45io#:~:text=Creating%20a%20Game%201%20Create%20a%20Telegram%20Bot,%2Fsetinline%203%20Create%20a%20new%20game%20using%20%2Fnewgame">Telegram game bot creating</a> guide.  Add your bot token to a `.env` file or modify the ./bot/bot.js file directly::
    ```
    BOT_TOKEN=your_bot_token_here
-
    ```
-5. For testing game in your local you have to install ngrok and signin, you have to get authtoken from ngrok, use this authtoken first `ngrok config add-authtoken $YOUR_AUTHTOKEN` ,  after `ngrok http $YOUR_PORT` this command will give you public url for checking your telegram game bot. Copy link and change url variable in ./bot/bot.js file.
-6. Go to ./bot folder first `npm install`, then `node bot.js` 
+5. To test the game locally, install and sign in to ngrok. Obtain an authtoken from ngrok, then use it with the command `ngrok config add-authtoken $YOUR_AUTHTOKEN`. Afterward, run `ngrok http $YOUR_PORT` to get a public URL for your Telegram game bot. Copy the link and update the `url` variable in the ./bot/bot.js file
+6. In the ./bot folder, first run  `npm install`, then execute `node bot.js`  
+7. Open Telegram, search for your bot by name or use the game link provided by BotFather. Start a chat with the bot and type `/start` to see and play the game.
 
 
 
