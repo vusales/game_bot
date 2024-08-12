@@ -33,7 +33,7 @@ A floating animation is displayed at the click location, showing the points adde
 
 - React
 - Tailwind CSS
-- Telegraf (Telegram Bot API)
+- Telegram (Telegram Bot API)
 - Node.js (express npm, node-telegram-bot-api npm)
 
 
